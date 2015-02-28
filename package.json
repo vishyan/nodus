@@ -1,0 +1,32 @@
+{
+  "name": "filestream",
+  "version": "1.0.0",
+  "description": "Create a http file server to read the file and upload file using streams ",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishyan/nodus.git"
+  },
+  "author": "Vishal Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishyan/nodus/issues"
+  },
+  "homepage": "https://github.com/vishyan/nodus",
+  "devDependencies": {
+    "debug": "^2.1.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-nodemon": "^0.4.0",
+    "nodemon": "^1.3.7"
+  },
+  "dependencies": {
+    "express": "^4.12.0",
+    "formidable": "^1.0.17",
+    "util": "^0.10.3"
+  }
+}
