@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div>
+        Valid Users are:
+    <br>
+    <%
+        if(userList)
+        for (var i=0; i<userList.length; i++) { %>
+          <li><%= userList[i].name %></li>
+    <br>
+        <% } else error %>
+
+    If you need access, please email: <a href="mailto:vishah@equinix.com">Admin</a>
+    </div>
+  </body>
+</html>
